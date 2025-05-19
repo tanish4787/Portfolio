@@ -71,7 +71,7 @@ const About = () => {
           >
             {skills.map((skill, index) => (
               <SwiperSlide key={index}>
-                <div className="flex flex-col items-center justify-center px-4 py-4 bg-gray-50 dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-none hover:scale-105 transition-transform duration-300">
+                <div className="flex flex-col items-center justify-center px-4 py-4 bg-[#f1f5ff] dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-none hover:scale-105 transition-transform duration-300">
                   <div className="text-3xl mb-2">{skill.icon}</div>
                   <p className="text-sm font-medium text-gray-800 dark:text-gray-200">{skill.name}</p>
                 </div>
