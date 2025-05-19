@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import TaskManager from '../assets/images/Task-Manager.png';
+import TaskManager from '../assets/images/task-manager.png';
 import WorldAtlas from '../assets/images/World-Atlas.png';
 import CodeBot from '../assets/images/CodeBot.png';
 import XcelUrCareer from '../assets/images/XcelUrCareer.png';
