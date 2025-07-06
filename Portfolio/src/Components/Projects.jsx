@@ -7,10 +7,20 @@ import XcelUrCareer from '../assets/images/XcelUrCareer.png';
 import CardProp from '../assets/images/CardProp.png';
 import WeatherApp from '../assets/images/WeatherApp.png';
 import BMICalc from '../assets/images/BMICalc.png';
+import Excel_Analytics_Platform from '../assets/images/Excel_Analytics_Platform.png';
 
 import { v4 as uuidv4 } from 'uuid';
 
 const projectList = [
+  {
+    id: uuidv4(),
+    image: Excel_Analytics_Platform,
+    heading: 'Excel Analytics Platform',
+    description: 'Built a secure MERN stack platform for Excel data analysis with charts and user dashboards.',
+    techStack: ['React', 'Tailwind CSS', 'MongoDb', 'Express', 'Node js'],
+    live: 'https://excel-analytics-platform-mu.vercel.app/',
+    code: 'https://github.com/tanish4787/Excel-Analytics-Platform',
+  },
   {
     id: uuidv4(),
     image: TaskManager,
